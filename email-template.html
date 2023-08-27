@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .incident-card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .incident-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .incident-details {
+            margin-top: 10px;
+        }
+        .severity-icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        .severity-high {
+            background-color: #ff4d4d;
+        }
+        .severity-medium {
+            background-color: #ff9933;
+        }
+        .severity-low {
+            background-color: #66cc66;
+        }
+    </style>
+</head>
+<body>
+    <div class="incident-card">
+        <div class="incident-title">
+            Incident #12345: Unauthorized Access Detected
+        </div>
+        <div class="incident-details">
+            <div class="severity-icon severity-high"></div>
+            <strong>Severity:</strong> High
+        </div>
+        <div class="incident-details">
+            <strong>Created Time:</strong> August 25, 2023 10:30 AM
+        </div>
+        <div class="incident-details">
+            <strong>Description:</strong> Suspicious activity detected in system logs.
+        </div>
+        <div class="incident-details">
+            <strong>Incident URL:</strong> <a href="#">View Incident</a>
+        </div>
+    </div>
+
+    <div class="incident-card">
+        <div class="incident-title">
+            Incident #12346: Malware Detected
+        </div>
+        <div class="incident-details">
+            <div class="severity-icon severity-medium"></div>
+            <strong>Severity:</strong> Medium
+        </div>
+        <div class="incident-details">
+            <strong>Created Time:</strong> August 25, 2023 11:45 AM
+        </div>
+        <div class="incident-details">
+            <strong>Description:</strong> Malicious software detected on user machine.
+        </div>
+        <div class="incident-details">
+            <strong>Incident URL:</strong> <a href="#">View Incident</a>
+        </div>
+    </div>
+
+    <div class="incident-card">
+        <div class="incident-title">
+            Incident #12347: Anomaly Detected
+        </div>
+        <div class="incident-details">
+            <div class="severity-icon severity-low"></div>
+            <strong>Severity:</strong> Low
+        </div>
+        <div class="incident-details">
+            <strong>Created Time:</strong> August 25, 2023 2:15 PM
+        </div>
+        <div class="incident-details">
+            <strong>Description:</strong> Unusual behavior detected in user activity logs.
+        </div>
+        <div class="incident-details">
+            <strong>Incident URL:</strong> <a href="#">View Incident</a>
+        </div>
+    </div>
+</body>
+</html>
+
